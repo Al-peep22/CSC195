@@ -15,8 +15,7 @@ float grossIncome;
 float taxAmount;
 float netIncome;
 
-
-int main() {
+main() {
 	cout << "Enter first name: ";
 	cin >> name;
 
