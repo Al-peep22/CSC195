@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{94af8dc3-c873-4044-98d8-70f5c20cf373}</ProjectGuid>
-    <RootNamespace>OOP</RootNamespace>
+    <ProjectGuid>{85f1713c-98f2-4fbf-b706-db11bdc0a5e7}</ProjectGuid>
+    <RootNamespace>Classes</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,19 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Console.cpp" />
-    <ClCompile Include="Human.cpp" />
-    <ClCompile Include="OOP.cpp" />
-    <ClCompile Include="School.cpp" />
-    <ClCompile Include="Student.cpp" />
-    <ClCompile Include="Teacher.cpp" />
+    <ClCompile Include="Animal.cpp" />
+    <ClCompile Include="Cat.cpp" />
+    <ClCompile Include="Classes.cpp" />
+    <ClCompile Include="DataBase.cpp" />
+    <ClCompile Include="Dog.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Console.h" />
-    <ClInclude Include="Human.h" />
-    <ClInclude Include="School.h" />
-    <ClInclude Include="Student.h" />
-    <ClInclude Include="Teacher.h" />
+    <ClInclude Include="Animal.h" />
+    <ClInclude Include="Cat.h" />
+    <ClInclude Include="DataBase.h" />
+    <ClInclude Include="Dog.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
