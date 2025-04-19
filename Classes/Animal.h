@@ -16,6 +16,6 @@ public:
 	unNum GetAge();
 	virtual eType GetType() = 0;
 private:
-	string name;
-	unNum age;
+	string name = "";
+	unNum age = 0;
 };

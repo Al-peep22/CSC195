@@ -15,10 +15,8 @@ void DataBase::Create(Animal::eType type) {
         obj = new Dog();
         break;
     }
-    if (obj != nullptr) {
-        obj->Read();
-        animals.push_back(obj);
-    }
+    obj->Read();
+    animals.push_back(obj);
 }
 
 void DataBase::Display(string name) {

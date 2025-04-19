@@ -12,3 +12,12 @@ void Animal::Read() {
 void Animal::Write() {
 	cout << "Name: " << name << "\nAge: " << age << endl;
 }
+
+string Animal::GetName() {
+	return name;
+}
+
+
+unNum Animal::GetAge() {
+	return age;
+}

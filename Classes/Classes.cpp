@@ -15,6 +15,12 @@ int main(){
         std::cout << "1 - Create\n2 - Display All\n3 - Display by Name\n4 - Display by Type\n5 - Quit\n";
         int choice;
         std::cin >> choice;
+        //if (std::cin.fail()) {  // Detect invalid input
+        //    std::cin.clear();    // Clear error flag
+        //    std::cin.ignore(1000, '\n'); // Ignore invalid input
+        //    std::cout << "Invalid input! Please enter a number.\n";
+        //    continue;  // Restart loop
+        //}
         switch (choice)
         {
         case 1: // Create object by type break; 
