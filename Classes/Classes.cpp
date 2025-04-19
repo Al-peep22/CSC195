@@ -11,7 +11,7 @@ int main(){
     bool quit = false;
     while (!quit)
     {
-        string name = nullptr;
+        string name;
         std::cout << "1 - Create\n2 - Display All\n3 - Display by Name\n4 - Display by Type\n5 - Quit\n";
         int choice;
         std::cin >> choice;
